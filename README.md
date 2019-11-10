@@ -26,6 +26,7 @@ South Dakota has the highest debt per student.
 I choose the ALL_MTH00PCTPROF_1516 from math result. Function impute() in cell 21 is my solution. First, I transfer all NAN to "nan". For items like "50-59", I take the average of them to replace them, like 54.5 to replace "50-59"; for item including an "L", I take the average between 0 and this number to replace it; and for item including an "G", I take the average between it and 100 to replace it; for item with a "PS", I transfer them into "nan" as well.
 
 Then, for all "nan" items, I replace them using numbers generated from a normal distribution where mu is the average and sigma is the std of other numbers of this column. 
+
 ![Vis](https://github.com/stiangithub/HW3/blob/master/pr3.png )
 
 ## Problem 4
